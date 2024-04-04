@@ -46,19 +46,3 @@ const handlePrevMove = function(e) {
 
 nextButton.addEventListener("click", handleNextMove);
 prevButton.addEventListener("click", handlePrevMove);
-
-const carouselImage = document.getElementsByClassName("carousel-image");
-carouselImage.addEventListener("mouseover", handleMouseOver);
-
-function handleMouseOver(event) {
-  
-  display("Play now");
-}
-
-document.getElementById("searchBar").addEventListener('keydown', function (e) {
-
-    if (e.key === 'Enter') {
-        // need to see first
-      }
-
-});
