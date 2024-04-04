@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(0, 0, 0);
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-h1, p, a {
+h1, p, a, footer {
     color: #ff0000;
 }
 
@@ -41,11 +41,12 @@ h1, p, a {
 
 h1 {
     text-align: center;
+    font-size: 30px;
 }
 
 /* CAROUSEL */
 .carousel {
-    max-width: 800px;
+    max-width: 700px;
     position: relative;
     margin: 0 auto;
     padding-top: 100px;
@@ -63,7 +64,7 @@ h1 {
 
 .carousel-image img {
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
     height: auto;
 }
 
@@ -72,7 +73,7 @@ h1 {
     width: 100%;
     justify-content: space-between;
     position: absolute;
-    top: 55%;
+    top: 65%;
     transform: translateY(-50%);
 }
 
@@ -96,7 +97,7 @@ h1 {
     }
 }
 
-#searchBar {
+#search {
     text-align: center;
 }
 
@@ -107,4 +108,9 @@ h1 {
     font-family: "Russo One", sans-serif;
     background-color: rgb(0, 0, 0);
     border: none;
+    color: white;
 }
+
+footer {
+    text-align: center;
+    font-size: 12px;

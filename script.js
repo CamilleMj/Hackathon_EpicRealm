@@ -46,7 +46,3 @@ const handlePrevMove = function(e) {
 
 nextButton.addEventListener("click", handleNextMove);
 prevButton.addEventListener("click", handlePrevMove);
-
-const searchItem = document.getElementById("searchBar");
-
-searchItem.addEventListener()
