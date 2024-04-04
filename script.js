@@ -1,3 +1,4 @@
+// CAROUSEL
 const slides = document.getElementsByClassName("carousel-image");
 const prevButton = document.getElementById("carousel-button-prev");
 const nextButton = document.getElementById("carousel-button-next");
@@ -46,3 +47,13 @@ const handlePrevMove = function(e) {
 
 nextButton.addEventListener("click", handleNextMove);
 prevButton.addEventListener("click", handlePrevMove);
+// CAROUSEL
+
+//SEARCHBAR
+document.getElementById("searchBar").addEventListener('keydown', function (e) {
+
+    if (e.key === 'Enter') {
+        // need to see first
+      }
+
+});

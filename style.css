@@ -5,7 +5,7 @@ body {
     font-style: normal;
 }
 
-h1, p, a, footer {
+h1, p, a, footer, .dropbtn {
     color: #ff0000;
 }
 
@@ -16,7 +16,7 @@ h1, p, a, footer {
     width: 100%;
 }
 
-.navbar p, .navbar a {
+.navbar p, .navbar a, .dropbtn {
     display: block;
     text-align: center;
 }
@@ -27,7 +27,7 @@ h1, p, a, footer {
     font-size: 25px;
 }
 
-.navbar a {
+.navbar a, .dropbtn {
     float: right;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,9 +44,43 @@ h1 {
     font-size: 30px;
 }
 
+/* DROPDOWN */
+.dropbtn {
+    background-color: #000000;
+    border: none;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff0000;
+    color: #ddd;
+    width: 250px;
+}
+  
+.dropdown-content a {
+    color: #ddd;
+}
+  
+.dropdown-content a:hover {
+    background-color: #000000;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* CAROUSEL */
 .carousel {
-    max-width: 700px;
+    max-width: 600px;
     position: relative;
     margin: 0 auto;
     padding-top: 100px;
@@ -64,7 +98,7 @@ h1 {
 
 .carousel-image img {
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     height: auto;
 }
 
@@ -97,11 +131,12 @@ h1 {
     }
 }
 
+/* SEARCHBAR */
 #search {
     text-align: center;
 }
 
-#searchBar input[type=text] {
+#search input[type=text] {
     padding: 6px;
     margin-top: 8px;
     font-size: 20px;
@@ -111,6 +146,8 @@ h1 {
     color: white;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     font-size: 12px;
+}
